@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My personal page</title>
-</head>
 <style>
+ body {
+    max-width: 500px;
+    margin: auto;
+}
     .larget-image {
         width: 500px;
     }
@@ -14,8 +17,8 @@
     border-radius: 50%;
   }
   
-    
 </style>
+</head>
 <body>
     <header>
         <img class="larget-image" src="testing.png" alt="logo" />
@@ -58,16 +61,16 @@ Cross Platform / Browser Testing/</p>
     <section id="Contact">
         <h2>Contact</h2>
         <form method="POST" action="https://formspree.io/lidjshka@gmail.com">
-                    <label>First Name
+                    <label>First Name:
                         <input type="text" name="first-name"> 
                     </label>
-                    <label>Second Name
+                    <label>Second Name:
                         <input type="text" name="second-name">
                     </label>
-                    <label>E-mail
+                    <label>E-mail:
                         <input type="email" name="email-user">
                     </label>
-                    <label>Message text
+                    <label>Message:
                     <input type="text" name="message"> 
                     </label>
                 <input type="submit" value="SEND">
